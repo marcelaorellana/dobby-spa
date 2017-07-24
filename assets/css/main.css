@@ -6773,7 +6773,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   /*shape-rendering: crispEdges;*/ }
 
 body {
-  background-color: pink; }
+  background-color: #E9E0B7; }
 
 nav.nav-center ul {
   text-align: center;
@@ -6798,5 +6798,26 @@ nav {
   line-height: 50px;
   height: 50px;
   background-color: #2F1F1F; }
+
+.slider .indicators {
+  z-index: 9;
+  bottom: 15vh; }
+
+.slider {
+  z-index: -1; }
+
+.slider .indicators .indicator-item.active {
+  background-color: #2F1F1F; }
+
+.slides {
+  border-bottom: 2px solid #2F1F1F; }
+
+.treatment {
+  background-color: #E9E0B7;
+  text-align: center; }
+  .treatment img {
+    border: 8px solid #DABE85;
+    margin-top: -60px;
+    z-index: 999999; }
 
 /*# sourceMappingURL=main.css.map */
